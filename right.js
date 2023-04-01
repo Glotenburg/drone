@@ -20,8 +20,7 @@ function calculateVolume(mouseX, mouseY, screenWidth, screenHeight, maxVolume) {
       volume = 0;
     }
     return volume;
-  }
-  
+}
 
 body.addEventListener("click", function(event) {
   body.classList.add("shake");
@@ -68,4 +67,4 @@ document.addEventListener("click", function() {
 
 document.addEventListener('selectstart', function(e) {
     e.preventDefault();
-  });
+});
